@@ -1,3 +1,3 @@
-# Header Server
+# Worker Server
 
-Use in a header node of shared network system.
+Use in a worker node of shared network system.
