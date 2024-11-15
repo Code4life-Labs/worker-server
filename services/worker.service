@@ -1,0 +1,12 @@
+[Unit]
+Description=Worker Server
+After=network.target
+ 
+[Service]
+ExecStart=/bin/bash /root/worker-server/scripts/startup.sh
+WorkingDirectory=/opt/worker-server
+Restart=always
+User=root
+ 
+[Install]
+WantedBy=multi-user.target
